@@ -1,0 +1,97 @@
+.job_desc_container {
+    display: flex;
+    column-gap: 77px;
+    margin-top: 33px;
+}
+.job_desc_side_info {
+    flex: 19%
+ }
+.job_desc_back_to_btn {
+    display: flex;
+    align-items: center;
+    color: #1E86FF;
+    cursor: pointer;
+}
+.material-symbols-outlined { }
+.back_to_btn_text {
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1E86FF;
+    background: none;
+    border: none;
+    cursor: pointer;
+ }
+ .job_desc_side_info  .search_filter_title {
+    margin-top: 33px;
+  }
+.job_desc_side_quest {
+    margin-top: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #334680;
+ }
+.job_desc_main_container {
+    flex: 74%;
+    display: flex;
+    flex-direction: column;
+ }
+.job_desc_top_row { 
+    display: flex;
+    column-gap: 17px;
+    flex-wrap: wrap;
+    row-gap: 4px;
+}
+.job_desc_main_container  .job_card_title { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.job_card_tag { }
+.job_desc_main_container .job_card_published_ago { 
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.time_icon { }
+.job_card_published_ago_text { }
+.job_desc_main_container .job_desc_company_info { 
+    margin-top: 34px;
+    display: flex;
+    column-gap: 12px;
+}
+.job_desc_main_container  .company_logo {
+    width: 42px;
+    height: 42px;
+ }
+.job_desc_company_info_text { }
+.job_card_company_name {
+    font-size: 18px;
+    line-height: 21px;
+    color: #334680;
+ }
+.job_card_location { }
+.location_icon { }
+.job_card_location_text { 
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9BDCF;
+}
+.job_desc_text {
+    margin-top: 32px;
+ }
+
+ @media (max-width: 480px) {
+    .job_desc_container {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+ }

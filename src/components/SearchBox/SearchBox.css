@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:wght@400;500;700&display=swap');
+
+.search_container {
+    padding: 41px 18px;
+    background:  center / cover no-repeat url('./backgroundImg.png');
+    height: 138px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .input_box {
+    min-width: 350px;
+    flex: 1 0 70%;
+    max-width: 790px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+   }
+  .case_icon .material-symbols-outlined  {
+    color: #B9BDCF;
+    padding: 19px 10px 19px 14px;
+    font-size: 20px;
+    line-height: 1;
+   }
+
+   .search_container_input {
+    margin-right: auto;
+    width: 100%;
+    border-color: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9BDCF;
+    outline: none
+   }
+   
+   .search_container_input:focus {
+    color:                         #334680;
+
+  }
+
+  .search_btn {
+    padding: 14px 48px;
+    margin: 4px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: #1E86FF;
+    border-radius: 4px;
+    border: none;
+  }

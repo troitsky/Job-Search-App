@@ -1,0 +1,126 @@
+.searh_filter_container { 
+    flex:  30%;
+    max-width: 379px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #334680;
+
+}
+
+.search_filter_checkbox {
+    display: block;
+    padding: 44px 0 33px 0;
+    padding-left: 10px;
+}
+
+.search_filter_checkbox input {
+    padding-left: 12px;
+}
+.search_filter_title { 
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #B9BDCF;
+    margin-bottom: 14px;
+}
+.searh_filter_container .input_box {
+    padding: 17px 14px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 24px;
+    background: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 215px;
+ }
+.world_icon { 
+    font-size: 15px;
+    line-height: 1;
+    color: #B9BDCF;
+}
+.search_container_input { 
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9BDCF;
+    padding: 0;
+    padding-left: 16px;
+    border: 0;
+    text-overflow: ellipsis;
+}
+
+.search_filter_radio_button_block {
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #334680;
+    padding-left: 10px;
+}
+
+.search_filter_radio_button_block label {
+    padding-left: 13px;
+}
+
+.job_list {
+    flex: 60%;
+    padding-top: 42px;
+    width: 100%;
+ }
+
+.pagination { 
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 12px;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #B7BCCE;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9BDCF;
+    padding: 11px 14px;
+    
+}
+.pagination a:hover {
+    border: 1px solid #1E86FF;
+    color:#1E86FF;
+}
+
+.pagination a:active { 
+    background-color:#1E86FF;
+    color: white;
+}
+
+.active { }
+.pagination_divider { }
+
+@media (max-width: 768px) {
+    .search_btn {
+        padding: 14px 27px;
+    }
+    .input_box {
+        min-width: 315px;
+    }
+
+    .search_container_input {
+        padding-left: 6px;
+    }
+
+    .search_filter_checkbox {
+        padding: 22px 0;
+        padding-left: 10px;
+    }
+}
